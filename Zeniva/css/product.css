@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    gap: 40px;
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .heading {
+            gap: 18px;
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                font-size: 36px;
+                font-weight: 400;
+                font-family: Playfair Display;
+            }
+
+            .line {
+                width: 80px;
+                height: 5px;
+                background-color: #b46e43;
+            }
+        }
+
+        .category {
+            gap: 24px;
+            display: flex;
+
+            p {
+                font-size: 14px;
+                font-family: Montserrat;
+                font-weight: 500;
+                opacity: 0.5;
+            }
+
+            #active {
+                opacity: 1;
+                padding-bottom: 8px;
+                border-bottom: 3px solid #b46e43;
+            }
+        }
+    }
+
+    .container {
+        gap: 18px;
+        display: flex;
+
+        .box {
+            gap: 24px;
+            display: flex;
+            flex-direction: column;
+
+            .img {
+                width: 220px;
+                height: 220px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #f2f2f2;
+
+                img {
+                    width: 130px;
+                }
+            }
+
+            .text {
+                gap: 8px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-family: Montserrat;
+                justify-content: center;
+
+                h2 {
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #b46e43;
+                }
+            }
+        }
+
+        .next{
+            
+            img{
+                top: 90px;
+                left: 32px;
+                width: 20px;
+                position: relative;
+            }
+        }
+    }
+}

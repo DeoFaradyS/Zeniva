@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    padding: 30px 100px 100px 100px;
+    /* background-color: azure; */
+
+    #interior {
+        width: 450px;
+        height: 550px;
+    }
+
+    .box {
+        padding: 100px 0;
+        /* background-color: aliceblue; */
+
+        .text{
+            position: relative;
+            /* background-color: aqua; */
+            z-index: 3;
+
+            #top{
+                left: -100px;
+                font-size: 64px;
+                font-weight: 400;
+                width:max-content;
+                position: relative;
+                font-family: "Playfair Display";
+                /* background-color: antiquewhite; */
+
+                span{
+                    color: #b46e43;
+                }
+            }
+
+            #bottom{
+                left: 75px;
+                font-size: 64px;
+                font-weight: 400;
+                width:max-content;
+                position: relative;
+                margin-bottom: 40px;
+                font-family: "Playfair Display";
+            }
+
+            p{
+                left: 75px;
+                opacity: 0.5;
+                width: 560px;
+                font-size: 14px;
+                line-height: 150%;
+                position: relative;
+                padding-bottom: 54px;
+                font-family: Montserrat;
+            }
+        }
+
+        #shopping{
+            gap: 8px;
+            left: 75px;
+            border: none;
+            color: #fff;
+            display: flex;
+            font-weight: 500;
+            padding: 12px 24px;
+            position: relative;
+            border-radius: 8px;
+            align-items: center;
+            font-family: Montserrat;
+            background-color: #b46e43;
+
+            img{
+                width: 24px;
+            }
+        }
+    }
+}
