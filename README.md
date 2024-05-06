@@ -28,6 +28,7 @@ Pastikan web server XAMPP Anda (Apache dan MySQL) sudah diaktifkan. Anda dapat m
 Buka phpMyAdmin di XAMPP Anda. Buat database baru dengan nama `Zeniva`.
 
 4. Import File SQL
+Ekstrak terlebih dahulu file `zeniva_SQL.rar`, kemudian import ke database.
 
 5. Mengakses Aplikasi:
 Buka browser web Anda dan masukkan URL berikut:
